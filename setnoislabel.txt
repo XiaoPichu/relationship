@@ -1,0 +1,59 @@
+Backpack
+Bed
+Beer
+Bench
+Bicycle
+Bottle
+Boy
+Briefcase
+Camera
+Car
+Cat
+Chair
+Chopsticks
+Coffee cup
+Coffee table
+Desk
+Dog
+Dolphin
+Drum
+Elephant
+Flute
+Football
+Fork
+Girl
+Guitar
+Hamster
+Handbag
+Horse
+Knife
+LabelName1
+LabelName2
+Man
+Microphone
+Microwave oven
+Mobile phone
+Monkey
+Motorcycle
+Mug
+Oven
+Piano
+Pretzel
+Racket
+Rugby ball
+Ski
+Snake
+Snowboard
+Sofa bed
+Spoon
+Suitcase
+Surfboard
+Table
+Table tennis racket
+Taxi
+Tennis ball
+Tennis racket
+Van
+Violin
+Wine glass
+Woman

@@ -1,0 +1,43 @@
+LabelName1,LabelName2,RelationshipLabel
+Table,Wooden,is
+Bottle,Transparent,is
+Chair,Wooden,is
+Coffee table,Plastic,is
+Guitar,Wooden,is
+Bottle,Plastic,is
+Table,Plastic,is
+Chair,Plastic,is
+Chair,made of Leather,is
+Sofa bed,made of Leather,is
+Bed,Wooden,is
+Chopsticks,Wooden,is
+Desk,Wooden,is
+Table,Transparent,is
+Bench,Wooden,is
+Sofa bed,made of Textile,is
+Violin,Wooden,is
+Chopsticks,Plastic,is
+Ski,Wooden,is
+Piano,Wooden,is
+Backpack,made of Textile,is
+Suitcase,made of Textile,is
+Coffee table,Wooden,is
+Handbag,made of Leather,is
+Drum,Wooden,is
+Handbag,made of Textile,is
+Coffee cup,Plastic,is
+Spoon,Plastic,is
+Fork,Plastic,is
+Suitcase,Plastic,is
+Coffee cup,Transparent,is
+Coffee table,Transparent,is
+Briefcase,made of Textile,is
+Piano,Plastic,is
+Bench,Plastic,is
+Briefcase,made of Leather,is
+Suitcase,made of Leather,is
+Knife,Plastic,is
+Backpack,made of Leather,is
+Mug,Plastic,is
+Mug,Transparent,is
+Mug,Wooden,is

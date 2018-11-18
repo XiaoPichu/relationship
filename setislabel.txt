@@ -1,0 +1,24 @@
+Backpack
+Bed
+Bench
+Bottle
+Briefcase
+Chair
+Chopsticks
+Coffee cup
+Coffee table
+Desk
+Drum
+Fork
+Guitar
+Handbag
+Knife
+LabelName1
+Mug
+Piano
+Ski
+Sofa bed
+Spoon
+Suitcase
+Table
+Violin

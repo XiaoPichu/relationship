@@ -1,0 +1,288 @@
+LabelName1,LabelName2,RelationshipLabel
+Chair,Desk,at
+Chair,Table,at
+Man,Bicycle,on
+Woman,Table,at
+Man,Table,at
+Girl,Table,at
+Chair,Coffee table,at
+Woman,Table tennis racket,holds
+Woman,Chair,on
+Girl,Desk,at
+Man,Microphone,holds
+Boy,Desk,at
+Man,Car,inside_of
+Man,Camera,holds
+Girl,Chair,on
+Man,Chair,on
+Bottle,Table,on
+Woman,Racket,holds
+Woman,Microphone,holds
+Man,Guitar,holds
+Woman,Bicycle,on
+Woman,Wine glass,holds
+Man,Guitar,plays
+Woman,Guitar,plays
+Wine glass,Table,on
+Man,Football,holds
+Girl,Football,holds
+Man,Mobile phone,holds
+Man,Bench,on
+Woman,Desk,at
+Boy,Dog,interacts_with
+Boy,Guitar,plays
+Coffee cup,Desk,on
+Man,Motorcycle,on
+Man,Beer,holds
+Man,Football,hits
+Woman,Bottle,holds
+Mug,Table,on
+Man,Dog,interacts_with
+Woman,Violin,holds
+Fork,Table,on
+Woman,Bed,on
+Boy,Table,at
+Woman,Guitar,holds
+Dog,Bench,on
+Spoon,Table,on
+Dog,Car,inside_of
+Man,Wine glass,holds
+Man,Desk,at
+Woman,Handbag,wears
+Beer,Table,on
+Woman,Violin,plays
+Man,Bottle,holds
+Man,Drum,plays
+Woman,Beer,holds
+Woman,Bench,on
+Girl,Motorcycle,on
+Woman,Coffee cup,holds
+Man,Sofa bed,on
+Girl,Guitar,plays
+Coffee cup,Table,on
+Man,Horse,on
+Man,Violin,plays
+Man,Tennis racket,holds
+Man,Rugby ball,holds
+Man,Coffee table,at
+Woman,Ski,holds
+Man,Taxi,inside_of
+Girl,Drum,plays
+Girl,Coffee cup,holds
+Boy,Car,inside_of
+Woman,Horse,on
+Man,Horse,interacts_with
+Man,Ski,wears
+Man,Drum,holds
+Woman,Tennis racket,holds
+Girl,Dog,interacts_with
+Man,Backpack,wears
+Girl,Car,inside_of
+Woman,Coffee table,at
+Man,Violin,holds
+Man,Coffee cup,holds
+Boy,Bicycle,on
+Girl,Violin,holds
+Boy,Chair,on
+Man,Snowboard,wears
+Girl,Guitar,holds
+Man,Rugby ball,hits
+Girl,Microphone,holds
+Girl,Horse,interacts_with
+Woman,Car,inside_of
+Woman,Handbag,holds
+Girl,Horse,on
+Woman,Camera,holds
+Dog,Table,on
+Man,Piano,plays
+Boy,Football,hits
+Knife,Table,on
+Woman,Horse,interacts_with
+Woman,Mobile phone,holds
+Boy,Horse,interacts_with
+Woman,Spoon,holds
+Girl,Flute,holds
+Woman,Motorcycle,on
+Woman,Sofa bed,on
+Woman,Dog,interacts_with
+Woman,Knife,holds
+Girl,Surfboard,holds
+Girl,Violin,plays
+Cat,Table,on
+Bottle,Desk,on
+Girl,Football,hits
+Girl,Handbag,holds
+Cat,Chair,on
+Girl,Handbag,wears
+Girl,Mobile phone,holds
+Man,Cat,interacts_with
+Boy,Bench,on
+Girl,Tennis racket,holds
+Girl,Wine glass,holds
+Woman,Football,holds
+Man,Bed,on
+Girl,Cat,interacts_with
+Girl,Bed,on
+Woman,Flute,plays
+Man,Surfboard,holds
+Boy,Guitar,holds
+Girl,Camera,holds
+Girl,Bench,on
+Woman,Cat,interacts_with
+Chopsticks,Table,on
+Boy,Mobile phone,holds
+Dog,Bed,on
+Cat,Bed,on
+Dog,Sofa bed,on
+Boy,Football,holds
+Girl,Beer,holds
+Boy,Bed,on
+Girl,Drum,holds
+Man,Elephant,interacts_with
+Girl,Bicycle,on
+Dog,Bicycle,on
+Girl,Chopsticks,holds
+Girl,Bottle,holds
+Man,Van,inside_of
+Man,Flute,plays
+Man,Handbag,wears
+Man,Racket,holds
+Boy,Bottle,holds
+Woman,Drum,plays
+Boy,Horse,on
+Man,Ski,holds
+Boy,Table tennis racket,holds
+Wine glass,Desk,on
+Man,Monkey,interacts_with
+Cat,Car,inside_of
+Dog,Chair,on
+Man,Table tennis racket,holds
+Dog,Table,under
+Girl,Rugby ball,holds
+Cat,Suitcase,inside_of
+Man,Handbag,holds
+Dog,Motorcycle,on
+Boy,Beer,holds
+Boy,Surfboard,holds
+Mug,Desk,on
+Woman,Flute,holds
+Boy,Cat,interacts_with
+Woman,Piano,plays
+Man,Pretzel,holds
+Boy,Rugby ball,holds
+Cat,Desk,on
+Girl,Flute,plays
+Boy,Drum,plays
+Woman,Football,hits
+Bottle,Coffee table,on
+Girl,Coffee table,at
+Boy,Coffee table,at
+Man,Backpack,holds
+Woman,Drum,holds
+Girl,Suitcase,holds
+Wine glass,Coffee table,on
+Girl,Mug,holds
+Boy,Mug,holds
+Woman,Suitcase,holds
+Boy,Van,inside_of
+Man,Mug,holds
+Dog,Desk,under
+Boy,Sofa bed,on
+Girl,Piano,plays
+Boy,Camera,holds
+Man,Suitcase,holds
+Boy,Microphone,holds
+Girl,Spoon,holds
+Man,Briefcase,wears
+Girl,Racket,holds
+Girl,Backpack,holds
+Boy,Violin,plays
+Man,Flute,holds
+Boy,Snake,interacts_with
+Boy,Drum,holds
+Man,Dolphin,interacts_with
+Woman,Surfboard,holds
+Woman,Snake,interacts_with
+Girl,Ski,holds
+Cat,Backpack,inside_of
+Woman,Mug,holds
+Girl,Sofa bed,on
+Boy,Flute,holds
+Boy,Backpack,wears
+Coffee cup,Coffee table,on
+Girl,Backpack,wears
+Woman,Van,inside_of
+Beer,Coffee table,on
+Hamster,Motorcycle,on
+Boy,Violin,holds
+Man,Snake,interacts_with
+Man,Tennis ball,hits
+Girl,Snake,interacts_with
+Man,Snowboard,holds
+Girl,Table tennis racket,holds
+Boy,Chopsticks,holds
+Woman,Backpack,wears
+Boy,Tennis racket,holds
+Girl,Van,inside_of
+Man,Knife,holds
+Boy,Wine glass,holds
+Girl,Hamster,interacts_with
+Cat,Bench,on
+Woman,Elephant,interacts_with
+Dog,Van,inside_of
+Cat,Chair,under
+Man,Spoon,holds
+Woman,Tennis ball,holds
+Boy,Motorcycle,on
+Mug,Coffee table,on
+Cat,Motorcycle,on
+Girl,Dolphin,interacts_with
+Boy,Racket,holds
+Woman,Ski,wears
+Girl,Elephant,interacts_with
+Woman,Tennis ball,hits
+Cat,Coffee table,on
+Woman,Dolphin,interacts_with
+Woman,Rugby ball,holds
+Woman,Chopsticks,holds
+Woman,Fork,holds
+Man,Chopsticks,holds
+Boy,Piano,plays
+Woman,Taxi,inside_of
+Dog,Chair,under
+Boy,Ski,wears
+Boy,Coffee cup,holds
+Cat,Oven,on
+Cat,Handbag,inside_of
+Boy,Flute,plays
+Girl,Monkey,interacts_with
+Girl,Fork,holds
+Woman,Monkey,interacts_with
+Boy,Spoon,holds
+Woman,Hamster,interacts_with
+Dog,Bench,under
+Cat,Sofa bed,on
+Woman,Snowboard,holds
+Boy,Elephant,interacts_with
+Cat,Table,under
+Girl,Ski,wears
+Dog,Coffee table,under
+Beer,Desk,on
+Boy,Dolphin,interacts_with
+Boy,Fork,holds
+Woman,Backpack,holds
+Girl,Tennis ball,hits
+Girl,Suitcase,wears
+Girl,Snowboard,holds
+Boy,Knife,holds
+Boy,Handbag,holds
+Man,Fork,holds
+Cat,Car,under
+Man,Briefcase,holds
+Dog,Desk,on
+Man,Tennis ball,holds
+Boy,Suitcase,holds
+Boy,Monkey,interacts_with
+Boy,Suitcase,wears
+Boy,Taxi,inside_of
+Cat,Microwave oven,on
