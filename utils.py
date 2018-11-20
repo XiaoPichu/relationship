@@ -57,7 +57,7 @@ def setdictionarycsv(csvnamein,csvnameout):
 tmpnoislabel = 'setnoislabel.txt'
 def getnolabels(csvnamein,csvnameout):
     with open(csvnamein,'r') as _:
-        allobjects = [row[:2] for row in csv.reader(_)]
+        allobjects = [row[:2] for row in csv.reader(_)[1:]]
         out = []
         for allobject in allobjects:
             out.append(allobject[0])
@@ -69,7 +69,7 @@ def getnolabels(csvnamein,csvnameout):
 tmpislabel = 'setislabel.txt'            
 def getlabels(csvnamein,csvnameout):
     with open(csvnamein,'r') as _:
-        allobjects = [row[0] for row in csv.reader(_)]
+        allobjects = [row[0] for row in csv.reader(_)[1:]]
         out = sorted(list(set(allobjects)))
         with open(csvnameout,'w') as outwriter:
             outwriter.write('\n'.join(out))
