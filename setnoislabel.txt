@@ -27,8 +27,6 @@ Hamster
 Handbag
 Horse
 Knife
-LabelName1
-LabelName2
 Man
 Microphone
 Microwave oven
