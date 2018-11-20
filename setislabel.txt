@@ -13,7 +13,6 @@ Fork
 Guitar
 Handbag
 Knife
-LabelName1
 Mug
 Piano
 Ski
