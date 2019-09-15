@@ -53,3 +53,13 @@ branch = tf_util.conv1d(branch, 9, 1, padding='VALID', activation_fn=None, scope
 Visual Module
 '''
 Visual Module
+
+'''
+gumble trick
+'''
+https://zhuanlan.zhihu.com/p/50065712
+https://www.zhihu.com/question/62631725
+https://www.jianshu.com/p/9d5a0698f982
+https://www.leiphone.com/news/201710/AixG88EkKRDri7Vd.html
+https://blog.csdn.net/a358463121/article/details/80820878
+https://www.cnblogs.com/initial-h/p/9468974.html
