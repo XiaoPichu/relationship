@@ -87,9 +87,16 @@ ssd
 '''  
 fasterrcnn  
 ![框图](https://github.com/XiaoPichu/relationship/blob/master/fasterrcnn.png)  
+https://www.cnblogs.com/the-home-of-123/p/9747963.html  
 '''  
 '''
 featnms
+FasterRCNN是个two-stage的方法。
+第一步RPN生成一堆候选框，然后对候选框进行的后处理，最后将符合要求的候选框送到RCNN里面去回归。
+目标框的丢失的：RPN没检测到，后处理NMS丢失，RCNN的时候被过滤掉
+我先检查了一下RPN的结果，未经过后处理之前，小目标是存在的，
+经过后处理之后，小目标就被过滤掉了，
+让这些小目标进入RCNN，发现RCNN给它们打的分数都很高。那么问题就明确了，是后处理的过程不当导致这些小目标被排除了。
 '''
 '''
 随机森林
