@@ -4,12 +4,13 @@ semantic module
 数据库中主要由这3种关系组成: geometric(几何): 50.9%, possessive(所有格): 40.9% semantic(语义): 8.7%.  
 衣服、身体部件大多是所有格关系；家具、建筑大多是几何关系；人大多是语义关系的主语。  
 '''  
+>>
 n_classes = 62  
 n_relationship = 9  
 dict = {}  
 for i in range(n_classes-1):  
->for j in range(i+1,n_classes):  
- >>       _ = []  
+	for j in range(i+1,n_classes):  
+        _ = []  
         for k in range(n_relationship):  
             _.append(TP[(i,j)]/(TP[(i,j)]+FP[(i,j)]))  
         dict[(i,j)] = _  
