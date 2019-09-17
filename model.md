@@ -1,4 +1,3 @@
-#-*- coding=ytf-8 -*-  
 '''  
 semantic module  
 'at','on','inside_of','under',\ 'wears','interacts_with','hits','holds','plays',  
@@ -9,8 +8,8 @@ n_classes = 62
 n_relationship = 9  
 dict = {}  
 for i in range(n_classes-1):  
-    for j in range(i+1,n_classes):  
-        _ = []  
+>for j in range(i+1,n_classes):  
+ >>       _ = []  
         for k in range(n_relationship):  
             _.append(TP[(i,j)]/(TP[(i,j)]+FP[(i,j)]))  
         dict[(i,j)] = _  
