@@ -77,7 +77,6 @@ anchor的size太大了，网络无法覆盖到这种小样本。于是将anchor�
 
 '''  
 gumble trick  
-
 https://zhuanlan.zhihu.com/p/50065712  
 https://www.zhihu.com/question/62631725  
 https://www.jianshu.com/p/9d5a0698f982  
@@ -88,49 +87,39 @@ https://www.cnblogs.com/initial-h/p/9468974.html
 '''
 ECO
 '''
-'''
-
-'''
 attention
-'''
 '''
 crf
 '''
-'''  
+词袋模型
+'''
+ssd
+'''
+随机森林
+
+  
+''' 
 dlib、HOG  https://blog.csdn.net/ttransposition/article/details/11874285   
 HOG属于特征提取，它统计梯度直方图特征。  
 具体来说就是将梯度方向（0->360°）划分为9个区间，将图像化为16x16的若干个block，每个block在化为4个cell（8x8）。  
 对每一个cell,算出每一点的梯度方向和模，按梯度方向增加对应bin的值，最终综合N个cell的梯度直方图形成一个高维描述子向量。  
 微分算子[1,0,1]，取RGB通道中模值最大的为该像素点的梯度。  
-  
+'''
 Gamma校正原理及实现  https://blog.csdn.net/linqianbi/article/details/78617615  
 1. 归一化 ：将像素值转换为0-1之间的实数。 算法如下 : ( i + 0. 5)/256  
 2. 预补偿 ：像素归一化后的数据以  1 /gamma  为指数的对应值。这一步包含一个 求指数运算。若  gamma  值为  2. 2 ,  则  1 /gamma  为  0. 454545 , 对归一化后的  A  值进行预补偿的结果就 是  0. 783203 ^0. 454545 = 0. 894872 。 
-3. 反归一化 ：将经过预补偿的实数值反变换为  0  ～  255  之间的整数值。
-  
+3. 反归一化 ：将经过预补偿的实数值反变换为  0  ～  255  之间的整数值。
+'''
 sift  
 DoG尺度空间构造（Scale-space extrema detection）  
 关键点搜索与定位（Keypoint localization）  
 方向赋值（Orientation assignment）  
-关键点描述（Keypoint descriptor）  
-
-'''
-词袋模型
-'''
-'''
-ssd
-'''
-
-'''
-'''
-随机森林
-  
+关键点描述（Keypoint descriptor）    
 '''
 * 图像膨胀类似于“领域扩张”，将图像中的高亮区域或白色部分进行扩张，其运行结果图比原图的高亮区域更大；线条变粗了，主要用于去噪
 * 腐蚀类似于“领域被蚕食”，将图像中的高亮区域或白色部分进行缩减细化，其运行结果图比原图的高亮区域更小。
 * 开去外白：先腐蚀再膨胀
 * 闭去内黑：先膨胀再腐蚀
-  
 '''
 * 均值滤波  
 均值滤波，是图像处理中最常用的手段，从频率域观点来看均值滤波是一种低通滤波器，高频信号将会去掉，因此可以帮助消除图像尖锐噪声
