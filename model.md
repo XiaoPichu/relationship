@@ -89,15 +89,14 @@ https://www.cnblogs.com/initial-h/p/9468974.html
 ECO
 '''
 '''
-sift
-'''
+
 '''
 attention
 '''
 '''
 crf
 '''
-'''
+'''  
 dlib、HOG  https://blog.csdn.net/ttransposition/article/details/11874285   
 HOG属于特征提取，它统计梯度直方图特征。  
 具体来说就是将梯度方向（0->360°）划分为9个区间，将图像化为16x16的若干个block，每个block在化为4个cell（8x8）。  
@@ -108,6 +107,12 @@ Gamma校正原理及实现  https://blog.csdn.net/linqianbi/article/details/7861
 1. 归一化 ：将像素值转换为0-1之间的实数。 算法如下 : ( i + 0. 5)/256  
 2. 预补偿 ：像素归一化后的数据以  1 /gamma  为指数的对应值。这一步包含一个 求指数运算。若  gamma  值为  2. 2 ,  则  1 /gamma  为  0. 454545 , 对归一化后的  A  值进行预补偿的结果就 是  0. 783203 ^0. 454545 = 0. 894872 。 
 3. 反归一化 ：将经过预补偿的实数值反变换为  0  ～  255  之间的整数值。
+  
+sift  
+DoG尺度空间构造（Scale-space extrema detection）  
+关键点搜索与定位（Keypoint localization）  
+方向赋值（Orientation assignment）  
+关键点描述（Keypoint descriptor）  
 
 '''
 词袋模型
