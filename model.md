@@ -25,7 +25,7 @@ Spatial Module
 宾语对主语 主语对联合 宾语对联合    
   
 def box_delta(box1,box2):    
-    return [abs(box1[0]-box2[0])/box2[2], abs(box1[1]-box2[1])/box2[1], math.log(box1[2]/box2[2],2), math.log(box1[3]/box2[3],2)]  
+	return [abs(box1[0]-box2[0])/box2[2], abs(box1[1]-box2[1])/box2[1], math.log(box1[2]/box2[2],2), math.log(box1[3]/box2[3],2)]  
 def normalized_coordinates(box, image):  
     W, H, C = image.shape  
     return [box[0]/W, box[1]/H, (box[2]-1+box[0])/W, (box[3]-1+box[1])/H, (box[2]*box[3])/(W*H)]  
