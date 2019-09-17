@@ -105,7 +105,7 @@ HOG属于特征提取，它统计梯度直方图特征。
 对每一个cell,算出每一点的梯度方向和模，按梯度方向增加对应bin的值，最终综合N个cell的梯度直方图形成一个高维描述子向量。  
 微分算子[1,0,1]，取RGB通道中模值最大的为该像素点的梯度。  
 '''  
-sift  
+sift 生成高斯差分金字塔,尺度空间构建,空间极值点检测,稳定关键点的精确定位,稳定关键点方向信息分配,关键点描述,特征点匹配   
 DoG尺度空间构造（Scale-space extrema detection）  
 关键点搜索与定位（Keypoint localization）  
 方向赋值（Orientation assignment）  
