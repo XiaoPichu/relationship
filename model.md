@@ -3,7 +3,6 @@ semantic module
 'at','on','inside_of','under',\ 'wears','interacts_with','hits','holds','plays',  
 数据库中主要由这3种关系组成: geometric(几何): 50.9%, possessive(所有格): 40.9% semantic(语义): 8.7%.  
 衣服、身体部件大多是所有格关系；家具、建筑大多是几何关系；人大多是语义关系的主语。  
-'''  
 ```python
 n_classes = 62  
 n_relationship = 9  
@@ -23,7 +22,7 @@ semantic_logits = tf.placeholder(shape=[None,9], dtype = tf.float32, name = 'sem
 '''  
 Spatial Module    
 宾语对主语 主语对联合 宾语对联合    
-  
+```python
 def box_delta(box1,box2):    
 	return [abs(box1[0]-box2[0])/box2[2], abs(box1[1]-box2[1])/box2[1], math.log(box1[2]/box2[2],2), math.log(box1[3]/box2[3],2)]  
 def normalized_coordinates(box, image):  
@@ -46,10 +45,19 @@ feed_dict['semantic_logits'] = tmp
 spatial_logits = tf.placeholder(shape=[None,22], dtype = tf.float32, name = 'spatial_logits')  
 branch = tf_util.conv1d(net, 18, 1, padding='VALID', activation_fn=None, scope='fc2')  
 branch = tf_util.conv1d(branch, 9, 1, padding='VALID', activation_fn=None, scope='fc2')  
-  
+```
 '''  
 Visual Module  
-
+fasterrcnn  
+![框图](https://github.com/XiaoPichu/relationship/blob/master/fasterrcnn.png)  
+https://www.cnblogs.com/the-home-of-123/p/9747963.html  
+featnms
+FasterRCNN是个two-stage的方法。
+第一步RPN生成一堆候选框，然后对候选框进行的后处理，最后将符合要求的候选框送到RCNN里面去回归。
+目标框的丢失的：RPN没检测到，后处理NMS丢失，RCNN的时候被过滤掉
+我先检查了一下RPN的结果，未经过后处理之前，小目标是存在的，
+经过后处理之后，小目标就被过滤掉了，
+让这些小目标进入RCNN，发现RCNN给它们打的分数都很高。那么问题就明确了，是后处理的过程不当导致这些小目标被排除了。
 '''  
 gumble trick  
 
@@ -85,18 +93,9 @@ hog
 ssd
 '''
 '''  
-fasterrcnn  
-![框图](https://github.com/XiaoPichu/relationship/blob/master/fasterrcnn.png)  
-https://www.cnblogs.com/the-home-of-123/p/9747963.html  
+
 '''  
-'''
-featnms
-FasterRCNN是个two-stage的方法。
-第一步RPN生成一堆候选框，然后对候选框进行的后处理，最后将符合要求的候选框送到RCNN里面去回归。
-目标框的丢失的：RPN没检测到，后处理NMS丢失，RCNN的时候被过滤掉
-我先检查了一下RPN的结果，未经过后处理之前，小目标是存在的，
-经过后处理之后，小目标就被过滤掉了，
-让这些小目标进入RCNN，发现RCNN给它们打的分数都很高。那么问题就明确了，是后处理的过程不当导致这些小目标被排除了。
+
 '''
 '''
 随机森林
