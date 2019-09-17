@@ -57,14 +57,14 @@ https://blog.csdn.net/j879159541/article/details/97892863#FasterRCNNNMS_9
 FasterRCNN是个two-stage的方法。
 * RPN生成一堆候选框，
 * 对候选框进行的后处理，
+	* 1.根据score阈值筛选一遍，低于阈值的全部过滤掉。
+	* 2.进行IOU-NMS。
+	* 3.按照score排序，取分数最高的N个目标。
 * 最后将符合要求的候选框送到RCNN里面去回归。  
 
 目标框的丢失的：
 * RPN没检测到，
 * 后处理NMS丢失，
-	* 1.根据score阈值筛选一遍，低于阈值的全部过滤掉。
-	* 2.进行IOU-NMS。
-	* 3.按照score排序，取分数最高的N个目标。
 * RCNN的时候被过滤掉  
 
 我先检查了一下RPN的结果，未经过后处理之前，小目标是存在的，
